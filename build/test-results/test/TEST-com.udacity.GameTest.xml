@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.udacity.GameTest" tests="23" skipped="0" failures="1" errors="0" timestamp="2023-01-18T22:31:10" hostname="uladzislau-HP-Pavilion" time="0.009">
+  <properties/>
+  <testcase name="no_winner_case1" classname="com.udacity.GameTest" time="0.001"/>
+  <testcase name="no_winner_case2" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="no_winner_case3" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="no_winner_case4" classname="com.udacity.GameTest" time="0.001"/>
+  <testcase name="diagonal_x_win_case1" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="diagonal_x_win_case2" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="vertical_x_win_case1" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="vertical_x_win_case2" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="vertical_x_win_case3" classname="com.udacity.GameTest" time="0.001"/>
+  <testcase name="tie_game_case1" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="tie_game_case2" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="tie_game_case3" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="horizontal_o_win_case1" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="horizontal_o_win_case2" classname="com.udacity.GameTest" time="0.001"/>
+  <testcase name="horizontal_o_win_case3" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="horizontal_x_win_case1" classname="com.udacity.GameTest" time="0.001"/>
+  <testcase name="horizontal_x_win_case2" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="horizontal_x_win_case3" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="diagonal_o_win_case1" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="diagonal_o_win_case2" classname="com.udacity.GameTest" time="0.0"/>
+  <testcase name="vertical_o_win_case1" classname="com.udacity.GameTest" time="0.001"/>
+  <testcase name="vertical_o_win_case2" classname="com.udacity.GameTest" time="0.002">
+    <failure message="java.lang.AssertionError: o vertical win fail" type="java.lang.AssertionError">java.lang.AssertionError: o vertical win fail
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.udacity.GameTest.vertical_o_win_case2(GameTest.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:750)
+</failure>
+  </testcase>
+  <testcase name="vertical_o_win_case3" classname="com.udacity.GameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
